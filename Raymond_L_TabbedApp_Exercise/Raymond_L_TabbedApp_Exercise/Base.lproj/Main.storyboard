@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ddb-Fn-RFG">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Ground-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Raymond_L_TabbedApp_Exercise" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ground.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="ccG-VX-gbb">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is the ground" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lxy-bX-Dk9">
+                                <rect key="frame" x="20" y="72" width="374" height="48"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lxy-bX-Dk9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="4lO-7a-wXS"/>
+                            <constraint firstItem="ccG-VX-gbb" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ErA-6q-hbT"/>
+                            <constraint firstItem="lxy-bX-Dk9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="28" id="GSP-O0-aV6"/>
+                            <constraint firstItem="ccG-VX-gbb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Hbs-bt-1ym"/>
+                            <constraint firstItem="ccG-VX-gbb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="hz6-bH-Tfe"/>
+                            <constraint firstItem="lxy-bX-Dk9" firstAttribute="centerX" secondItem="ccG-VX-gbb" secondAttribute="centerX" id="uMm-5G-QEJ"/>
+                            <constraint firstItem="ccG-VX-gbb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zJO-3G-MuV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Ground" image="grass block" id="auX-NZ-bc3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="114.50892857142857"/>
+        </scene>
+        <!--Sky-->
+        <scene sceneID="0tN-3l-T6E">
+            <objects>
+                <viewController id="ga8-zM-JQu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IJr-pH-saK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sky.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="2DK-Th-XE0">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is the sky" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UKN-Ir-R4H">
+                                <rect key="frame" x="20" y="68" width="363" height="54"/>
+                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="UKN-Ir-R4H" firstAttribute="leading" secondItem="IJr-pH-saK" secondAttribute="leadingMargin" id="1Rp-xw-dKJ"/>
+                            <constraint firstItem="2DK-Th-XE0" firstAttribute="centerX" secondItem="IJr-pH-saK" secondAttribute="centerX" id="ID5-Rq-xsm"/>
+                            <constraint firstItem="2DK-Th-XE0" firstAttribute="top" secondItem="BUh-qw-EIc" secondAttribute="top" id="P2z-FI-Nke"/>
+                            <constraint firstItem="2DK-Th-XE0" firstAttribute="bottom" secondItem="BUh-qw-EIc" secondAttribute="bottom" id="SEF-lm-VL6"/>
+                            <constraint firstItem="2DK-Th-XE0" firstAttribute="leading" secondItem="BUh-qw-EIc" secondAttribute="leading" id="UeV-Of-M3L"/>
+                            <constraint firstItem="UKN-Ir-R4H" firstAttribute="top" secondItem="BUh-qw-EIc" secondAttribute="top" constant="24" id="WHD-9z-nHi"/>
+                            <constraint firstItem="BUh-qw-EIc" firstAttribute="trailing" secondItem="UKN-Ir-R4H" secondAttribute="trailing" constant="31" id="mKC-L1-95o"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="BUh-qw-EIc"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Sky" image="cloud.sun.fill" catalog="system" id="S02-Qp-akU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Gi-XJ-DfP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1805.7971014492755" y="114.50892857142857"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="nGw-jY-GSO">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="ddb-Fn-RFG" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gGA-ZX-FJG">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="xhJ-C0-D7z"/>
+                        <segue destination="ga8-zM-JQu" kind="relationship" relationship="viewControllers" id="Rp7-lY-g0D"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DBf-xT-BnL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="114.50892857142857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cloud.sun.fill" catalog="system" width="128" height="88"/>
+        <image name="grass block" width="20" height="20"/>
+        <image name="ground.jpeg" width="351" height="144"/>
+        <image name="sky.jpeg" width="318" height="159"/>
+    </resources>
+</document>
